@@ -5,3 +5,7 @@ require_relative "../lib/greeting.rb"
 
 puts "Hello user!"
 puts "What is your silly name?"
+
+name = gets.strip
+
+greeting(name)
